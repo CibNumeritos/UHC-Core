@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "UHC Core v0.0.1",
+		"description": "This UHC Core addon allows you to host an ultra hardcore game just using a few steps! No more command blocking for hosting an uhc, why not just having a portable uhc version!",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "44530a6b-548c-44f5-8ea2-9754a28f1e2d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "930d2bab-a27c-4be9-a9b1-feda18dcfcc9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "_",
+			"entry": "scripts/index.js",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "af865813-2cf2-4071-9bff-44dcbe2a4f5d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		}
+	],
+	"capabilities": [
+		"script_eval"
+	]
+}
