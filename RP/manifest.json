@@ -14,14 +14,14 @@
 		}
 	},
 	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
+		"name": "UHC Core RP",
+		"description": "UHC Core",
 		"min_engine_version": [
 			1,
 			19,
 			50
 		],
-		"uuid": "1851300f-8c71-406d-9135-8924149aacaa",
+		"uuid": "263e5a61-cfe3-4ef0-85a9-00aa16164bf7",
 		"version": [
 			1,
 			0,
@@ -31,7 +31,7 @@
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "3b47d65a-a60d-4a9f-b5e5-b56a259673bd",
+			"uuid": "5d726413-83ff-4ed9-bb5a-5f81694d2780",
 			"version": [
 				1,
 				0,
