@@ -13,7 +13,7 @@ export function onPlayerDeath(callback) {
     };
 };
 world.events.entityHurt.subscribe(async (entityHurt) => {
-    if (!entityHurt.hurtEntity instanceof Player) {
+    if (entityHurt.hurtEntity.typeId != 'minecraft:player') {
         return;
     };
     const player = entityHurt.hurtEntity;
